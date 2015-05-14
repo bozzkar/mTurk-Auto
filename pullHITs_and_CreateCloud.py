@@ -72,7 +72,8 @@ def plot_wordcloud(data):
 	response = unirest.post("https://gatheringpoint-word-cloud-maker.p.mashape.com/index.php",
 	  
 	  headers={
-		"X-Mashape-Authorization": "pj3yluoHZ2vzfYavjyQL889fAFMy4Q5w"
+	  # your mashape API key here
+		"X-Mashape-Authorization": "********************"
 	  },
 	  params={ 
 		"height": height,
